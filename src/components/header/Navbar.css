@@ -2,7 +2,8 @@
 .header
 {
   box-sizing: border-box;
-  background: rgba(100, 131, 150, 0.564);
+  /* background: rgba(100, 131, 150, 0.564); */
+  background: #10627b;  
 
 }
 

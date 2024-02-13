@@ -1,0 +1,40 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Белый фон */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+  }
+  
+  .container h2 {
+    text-align: center;
+    color: rgba(100, 131, 150, 0.565); /* Цвет морской волны */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(100, 131, 150, 0.565); /* Цвет морской волны */
+    border-radius: 5px;
+  }
+  
+  .input-field::placeholder {
+    color: rgba(100, 131, 150, 0.565); 
+  }
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(100, 131, 150, 0.565); /* Цвет морской волны */
+    color: #fff; /* Белый цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .submit-button:hover {
+    background-color: rgba(100, 131, 150, 0.711); /* Темный оттенок морской волны */
+  }

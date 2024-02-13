@@ -1,36 +1,51 @@
 .navbar {
-    background: url(/src/assets/bg.png) ;
-    height: 1000px;
-    width: 100%;
-    font-family: Optima, sans-serif;  
+  background: url(/src/assets/bg.png) ;
+  height: 1000px;
+  width: 100%;
+  font-family: Optima, sans-serif;
+  background-size: cover;
 }
 
 .let-s-make,
 .let-s-make * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 .let-s-make {
-  height: 214px;
-  position: relative;
+height: 214px;
+position: relative;
 
 }
 .let-s-make-your {
-  color: #29a3ef;
-  text-align: center;
-  font-family: Optima, sans-serif;
-  font-size: 76px;
-  font-weight: 500;
-  position: absolute;
-  left: 450px;
-  top: -20px;
+color: #29a3ef;
+text-align: center;
+font-family: Optima, sans-serif;
+font-size: 76px;
+font-weight: 500;
+position: absolute;
+left: 450px;
+top: -20px;
 }
 .dream-vacation {
-  color: #094469;
-  text-align: center;
-  font-family: Optima, sans-serif;
-  font-size: 76px;
-  font-weight: 500;
-  position: absolute;
-  left: 614px;
-  top: 80px;
+color: #094469;
+text-align: center;
+font-family: Optima, sans-serif;
+font-size: 76px;
+font-weight: 500;
+position: absolute;
+left: 614px;
+top: 80px;
+}
+.navbar input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  flex: 1;
+  margin-left: 48%;
+  margin-top: 30px;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.1); /* Наименьшая прозрачность */
+}
+.navbar input[type="text"]::placeholder {
+  color: rgba(122, 204, 255, 0.693); /* Белый цвет плейсхолдера */
 }

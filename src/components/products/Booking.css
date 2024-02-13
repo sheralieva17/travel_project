@@ -1,0 +1,41 @@
+.booking-container {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form label {
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form input[type="date"],
+  .booking-form input[type="number"],
+  .booking-form button {
+    width: 100%; /* Установка ширины на 100% */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Учитываем padding и border в общей ширине элемента */
+  }
+  
+  .booking-form button {
+    background-color: rgba(100, 131, 150, 0.565);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: rgba(100, 131, 150, 0.711);
+  }

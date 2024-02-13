@@ -1,8 +1,10 @@
 import React from "react";
 import "./VideoBlock.css";
 import beachVideo from "../../assets/video3.mp4";
+import { useNavigate } from "react-router-dom";
 
 const VideoBlock = () => {
+  const navigate = useNavigate()
   return (
     <div className="my-video">
       <div className="video-block">
@@ -22,7 +24,7 @@ const VideoBlock = () => {
               Explore pristine beaches, enjoy relaxed activities, and pamper
               yourself at the many wellness retreats.
             </p>
-            <button className="btn-see">See More</button>
+            <button onClick={() => navigate("/discover")} className="btn-see">See More</button>
           </div>
         </div>
       </div>
