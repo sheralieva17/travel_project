@@ -1,0 +1,62 @@
+{
+  "packages": [
+    {
+      "title": "ewd",
+      "category": "",
+      "description": "dwq",
+      "image": "https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp",
+      "tickPrice": "",
+      "price": 212,
+      "id": 1
+    },
+    {
+      "title": "hevi0eor",
+      "category": "",
+      "description": "ubuiewhdufhwh",
+      "image": "https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp",
+      "tickPrice": "",
+      "price": 23421,
+      "id": 2
+    },
+    {
+      "title": "jdiwjo",
+      "category": "Australia",
+      "description": "mwkdwq",
+      "image": "https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp",
+      "tickPrice": "",
+      "price": 231,
+      "id": 3
+    },
+    {
+      "title": "fef",
+      "category": "Europa",
+      "description": "few",
+      "image": "https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp",
+      "tickPrice": 31,
+      "price": 231,
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Asia"
+    },
+    {
+      "id": 2,
+      "name": "Europa"
+    },
+    {
+      "id": 3,
+      "name": "America"
+    },
+    {
+      "id": 4,
+      "name": "Australia"
+    },
+    {
+      "id": 5,
+      "name": "Africa"
+    }
+  ]
+}

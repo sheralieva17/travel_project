@@ -1,0 +1,36 @@
+.navbar {
+    background: url(/src/assets/bg.png) ;
+    height: 1000px;
+    width: 100%;
+    font-family: Optima, sans-serif;  
+}
+
+.let-s-make,
+.let-s-make * {
+  box-sizing: border-box;
+}
+.let-s-make {
+  height: 214px;
+  position: relative;
+
+}
+.let-s-make-your {
+  color: #29a3ef;
+  text-align: center;
+  font-family: Optima, sans-serif;
+  font-size: 76px;
+  font-weight: 500;
+  position: absolute;
+  left: 450px;
+  top: -20px;
+}
+.dream-vacation {
+  color: #094469;
+  text-align: center;
+  font-family: Optima, sans-serif;
+  font-size: 76px;
+  font-weight: 500;
+  position: absolute;
+  left: 614px;
+  top: 80px;
+}

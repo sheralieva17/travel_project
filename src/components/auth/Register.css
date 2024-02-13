@@ -1,0 +1,59 @@
+.auth-form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(189, 185, 185);
+    background: transparent;
+     }
+     
+     .input-group {
+    margin-bottom: 20px;
+     }
+     
+     .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(152, 157, 153);
+     }
+     
+     .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #879669;
+    border-radius: 4px;
+    
+     }
+     
+     .submit-btn, .google-sign-in {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     }
+     
+     .submit-btn {
+    background-color: #2b98b9;
+    color: white;
+     }
+     
+     .submit-btn:hover {
+    background-color: #095264;
+     }
+     
+     .google-sign-in {
+    background-color: #FF7F50;
+    color: white;
+    margin-top: 10px;
+     }
+     
+     .google-sign-in:hover {
+    background-color: #ef5121;
+     }
+     
+     .error {
+    color: red;
+    margin-bottom: 15px;
+     }

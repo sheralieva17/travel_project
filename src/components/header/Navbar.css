@@ -1,0 +1,136 @@
+
+.header
+{
+  box-sizing: border-box;
+  background: rgba(100, 131, 150, 0.564);
+
+}
+
+.header {
+  height: 100px;
+  position: relative;
+}
+.frame-70 {
+  display: flex;
+  flex-direction: row;
+  gap: 145px;
+  width: auto;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 66px;
+  top: 20px;
+}
+.frame-69 {
+  flex-shrink: 0;
+  width: 244px;
+  height: 60px;
+  position: relative;
+}
+.on-trip {
+  color: #ffffff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  list-style-type: none;
+}
+.home2 {
+  color: #eaf7ff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.about {
+  color: #eaf7ff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.discover {
+  color: #eaf7ff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+
+.contact {
+  color: #eaf7ff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.login {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+
+}
+.login2 {
+  color: #eaf7ff;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+.frame-17 {
+  background: var(
+    --sky,
+    linear-gradient(
+      180deg,
+      rgba(226, 235, 240, 1) 0%,
+      rgba(192, 217, 231, 1) 100%
+    )
+  );
+  border-radius: 20px;
+  padding: 6px 23px 6px 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 120px;
+  height: 39px;
+  position: relative;
+}
+.register {
+  color: #425e6f;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+}
