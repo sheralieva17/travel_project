@@ -1,60 +1,60 @@
-/* Package.css */
-
 .onePackage {
-    width: 280px;
-    margin: 10px auto;
-    background-color: aliceblue;
-    border: 1px solid gray;
-  }
-  
- 
-  
-  /* img:hover {
-    transform: scale(1.2);
-  } */
-  
-  .title {
-    font-family: fantasy;
-    font-weight: bold;
-  }
-  
-  .details {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .admin-buttons-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  button {
-    border: none;
-    cursor: pointer;
-    background: none;
-    font-family: Optima sans-serif;
-    font-weight: bold;
-  }
-  
-  button.favorite {
-    color: white;
-  }
-  
-  button.edit {
-    background-color: #348788;
-    font-weight: 900;
-    margin-right: 5px;
-    color: white;
-  }
-  
-  button.delete {
-    background-color: #333333;
-    font-weight: 900;
-    color: #47fff6;
-    cursor: pointer;
-  }
-  
-  button.favorite.active {
-    color: red;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  margin: 20px auto;
+  background-color: #F0F8FF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.onePackage img.main-image {
+  width: calc(100% + 40px); 
+  margin: -20px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.onePackage img.main-image:hover {
+  transform: scale(1.1);
+}
+
+.onePackage img.favorite-icon {
+  width: 30px; 
+  height: auto; 
+  cursor: pointer; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.onePackage img.favorite-icon:hover {
+  transform: scale(1.2); 
+}
+
+button.edit, button.delete {
+  padding: 8px 12px;
+  border: none;
+  color: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+button.edit {
+  background-color: #10627b;
+}
+
+button.delete {
+  background-color: salmon;
+}
+
+button.edit:hover, button.delete:hover {
+  background-color: #044559;
+  background-color: rgb(235, 195, 121);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

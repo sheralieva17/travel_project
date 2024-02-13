@@ -10,15 +10,6 @@
       "id": 1
     },
     {
-      "title": "hevi0eor",
-      "category": "",
-      "description": "ubuiewhdufhwh",
-      "image": "https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp",
-      "tickPrice": "",
-      "price": 23421,
-      "id": 2
-    },
-    {
       "title": "jdiwjo",
       "category": "Australia",
       "description": "mwkdwq",
@@ -35,6 +26,51 @@
       "tickPrice": 31,
       "price": 231,
       "id": 4
+    },
+    {
+      "title": "11111",
+      "category": "",
+      "description": "11111",
+      "image": "https://a.cdn-hotels.com/gdcs/production18/d1838/041ae6b1-0a88-4c22-a648-53a22dd4a006.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+      "tickPrice": 5,
+      "price": 16799,
+      "id": 5
+    },
+    {
+      "title": "ццц",
+      "category": "",
+      "description": "ццц",
+      "image": "ццц",
+      "tickPrice": -11111,
+      "price": 111,
+      "id": 6
+    },
+    {
+      "title": "ssss",
+      "category": "",
+      "description": "sss",
+      "image": "sss",
+      "tickPrice": -1,
+      "price": 111,
+      "id": 7
+    },
+    {
+      "title": "qw",
+      "category": "America",
+      "description": "q",
+      "image": "https://i.pinimg.com/236x/2a/f5/3d/2af53d8f1be483dd0e05b7b18142c33c.jpg",
+      "tickPrice": 1111,
+      "price": 111,
+      "id": 8
+    },
+    {
+      "title": "ууву",
+      "category": "Europa",
+      "description": "уву",
+      "image": "https://i.pinimg.com/236x/2a/f5/3d/2af53d8f1be483dd0e05b7b18142c33c.jpg",
+      "tickPrice": 111,
+      "price": 111,
+      "id": 9
     }
   ],
   "categories": [

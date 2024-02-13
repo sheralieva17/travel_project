@@ -15,9 +15,10 @@ const PackageList = () => {
 
     //!=====PAGINATION=========
     const [page, setPage] = useState(1);
-    const handleChange = (event, value) => {
-        setPage(value);
-    };
+    const handleChange = (pageNumber) => {
+      setPage(pageNumber);
+  };
+  
 
     const ITEMS_PER_PAGE = 4;
     const count = Math.ceil(packages.length / ITEMS_PER_PAGE); // Fix variable name

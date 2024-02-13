@@ -45,6 +45,8 @@ const PackageContextProvider = ({ children }) => {
       console.error("Error fetching products:", error);
     }
   }
+
+  
   
 
   async function getOnePackage(id) {
